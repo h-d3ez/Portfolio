@@ -239,6 +239,20 @@ header {
   filter: drop-shadow(0 0 8px #e50914);
 }
 
+/* ================== CONTACT LINKS ================== */
+.contact-link {
+  color: white;
+  text-decoration: none;
+}
+
+.contact-link:visited {
+  color: white;
+}
+
+.contact-link:hover {
+  color: #e50914;
+}
+
 /* ================== SECTIONS ================== */
 section {
   padding: 60px 20px;
