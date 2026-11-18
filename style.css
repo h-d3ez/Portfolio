@@ -534,3 +534,9 @@ footer { position:relative; z-index:1; background:var(--bg); border-top:1px soli
   .form-wrap { padding:22px 18px; }
   .stat-item { width:100%; }
 }
+
+/* All grades red (incl. IGCSE) */
+.gc { background:var(--red-soft); border-color:var(--border); color:var(--red); font-weight:700; }
+
+/* Keep 5 stats on one row on laptops */
+@media (min-width:1025px) and (max-width:1280px) { .stat-item { padding:0 34px; } }
